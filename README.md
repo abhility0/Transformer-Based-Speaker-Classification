@@ -1,4 +1,4 @@
-##Overview
+##Overview##
 This repository contains my implementation of a transformer-based model for speaker classification. The project leverages the power of self-attention—drawing inspiration from the seminal paper "Attention is All You Need"—to process sequences of audio features and accurately predict the speaker among 600 candidates.
 
 The main objective of this project is to perform multi-class classification on speech data. Each audio sample is represented as a sequence of pre-processed features, and the model uses self-attention mechanisms to capture both local and global dependencies within these sequences. The dataset consists of:
